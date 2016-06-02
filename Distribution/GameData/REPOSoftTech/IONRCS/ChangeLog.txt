@@ -1,0 +1,8 @@
+﻿V0.1.1.0 "Fixes"
+	Added AVC version checking to distribution (left it out of the initial release).
+	Fixed Textures on the 4 way ION RCS and 4 way 45 degrees ION RCS parts.
+	Modified the 4 way 45 degrees ION RCS part thrusters to point more or less 45 degrees.
+	Fixed Resource definition for Teflon to include correct directory for the Teflon Alternate Resource Panel Icon. (Thanks Gordon Dry)
+
+V0.1.0.0 "Split Release"
+	Split ION RCS parts from AmpYear mod.
