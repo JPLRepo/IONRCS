@@ -1,4 +1,6 @@
-﻿V0.1.1.0 "Fixes"
+﻿V0.1.2.0 "Fix 4 way RCS"
+	Fixed 4 way RCS block. (not the 45 degree one) as one side was not working.
+V0.1.1.0 "Fixes"
 	Added AVC version checking to distribution (left it out of the initial release).
 	Fixed Textures on the 4 way ION RCS and 4 way 45 degrees ION RCS parts.
 	Modified the 4 way 45 degrees ION RCS part thrusters to point more or less 45 degrees.
