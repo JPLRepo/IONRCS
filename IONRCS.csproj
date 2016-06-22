@@ -34,14 +34,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\KSPDLLs\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\KSPDLLs - 1.1.3\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="KSPUtil">
-      <HintPath>..\..\KSPDLLs\KSPUtil.dll</HintPath>
+      <HintPath>..\KSPDLLs - 1.1.3\KSPUtil.dll</HintPath>
     </Reference>
-    <Reference Include="SaveUpgradePipeline.Core, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\KSPDLLs\SaveUpgradePipeline.Core.dll</HintPath>
+    <Reference Include="SaveUpgradePipeline.Core">
+      <HintPath>..\KSPDLLs - 1.1.3\SaveUpgradePipeline.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -50,7 +49,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\KSPDLLs\UnityEngine.dll</HintPath>
+      <HintPath>..\KSPDLLs - 1.1.3\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\KSPDLLs - 1.1.3\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -60,18 +62,39 @@
     <Compile Include="Upgrade.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Distribution\GameData\REPOSoftTech\IONRCS\Plugins\IONRCS.dll" />
-    <Content Include="Distribution\GameData\REPOSoftTech\IONRCS\Plugins\IONRCS.dll.mdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Distribution\GameData\REPOSoftTech\IONRCS\Plugins\IONRCS.pdb" />
+    <Content Include="Distribution\GameData\REPOSoftTech\Agencies\REPOSoftTech.png" />
+    <Content Include="Distribution\GameData\REPOSoftTech\IONRCS\ChangeLog.txt" />
+    <Content Include="Distribution\GameData\REPOSoftTech\IONRCS\Icons\Teflon.png" />
+    <Content Include="Distribution\GameData\REPOSoftTech\IONRCS\MiniAVC Licence.txt" />
+    <Content Include="Distribution\GameData\REPOSoftTech\IONRCS\MiniAVC.dll" />
+    <Content Include="Distribution\GameData\REPOSoftTech\IONRCS\MiniAVC.xml" />
     <Content Include="LocalDev\7za_dir.txt" />
     <Content Include="LocalDev\ksp_dir.txt" />
     <Content Include="LocalDev\mono_exe.txt" />
     <Content Include="LocalDev\pdb2mdb_exe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Distribution\IONRCS_V0.1.0.0.zip" />
+    <None Include="Distribution\GameData\REPOSoftTech\Agencies\Agents.cfg" />
+    <None Include="Distribution\GameData\REPOSoftTech\Agencies\REPOSoftTech_scaled.truecolor" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\IONRCS.version" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCS4Way45IonRCS\IONrcsBlock45.cfg" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCS4Way45IonRCS\IONRCSBlock45.dds" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCS4Way45IonRCS\IONRCSBlock45.mu" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCS4WayIonRCS\IONrcsBlock.cfg" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCS4WayIonRCS\IONRCSBlock.dds" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCS4WayIonRCS\IONRCSBlock.mu" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCSLinearIonRCS\model.mu" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCSLinearIonRCS\model000.dds" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCSLinearIonRCS\model001.dds" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCSLinearIonRCS\part.cfg" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCSLinearPPTRCS\model.mu" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCSLinearPPTRCS\model000.dds" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCSLinearPPTRCS\model001.dds" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Parts\IONRCSLinearPPTRCS\part.cfg" />
+    <None Include="Distribution\GameData\REPOSoftTech\IONRCS\Resources\IONRCSResources.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Distribution\GameData\REPOSoftTech\IONRCS\Plugins\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="PostBuildMacros">
