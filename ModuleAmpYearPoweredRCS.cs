@@ -29,7 +29,7 @@ using UnityEngine;
 
 namespace IONRCS
 {
-    public class ModuleIONPoweredRCS : ModuleRCS, IResourceConsumer
+    public class ModuleIONPoweredRCS : ModuleRCSFX, IResourceConsumer
     {
         //private Propellant definition;
         private string ElecChge = "ElectricCharge"; 
