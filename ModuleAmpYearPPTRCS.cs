@@ -29,7 +29,7 @@ using System.Collections.Generic;
 
 namespace IONRCS
 {
-    public class ModulePPTPoweredRCS : ModuleRCS, IResourceConsumer
+    public class ModulePPTPoweredRCS : ModuleRCSFX, IResourceConsumer
     {
         //private Propellant definition;
         private string ElecChge = "ElectricCharge";
