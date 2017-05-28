@@ -36,13 +36,13 @@ namespace IONRCS
         private string Teflon = "Teflon";
 
         // New context menu info
-        [KSPField(isPersistant = false, guiName = "Current EC Usage", guiUnits = "s", guiFormat = "F3", guiActive = true)]
+        [KSPField(isPersistant = false, guiName = "#autoLOC_IONRCS_00001", guiUnits = "#autoLOC_7001400", guiFormat = "F3", guiActive = true)] //#autoLOC_IONRCS_00001 = Current EC Usage
         public float ElecUsed = 0f;
 
-        [KSPField(isPersistant = true, guiName = "Teflon Ratio", guiUnits = "s", guiFormat = "F3", guiActive = true)]
+        [KSPField(isPersistant = true, guiName = "#autoLOC_IONRCS_00004", guiUnits = "#autoLOC_7001400", guiFormat = "F3", guiActive = true)] //#autoLOC_IONRCS_00004 = Teflon Ratio
         public float teflonRatio = 0f;
 
-        [KSPField(isPersistant = true, guiName = "Power Ratio", guiUnits = "s", guiFormat = "F3", guiActive = true)]
+        [KSPField(isPersistant = true, guiName = "#autoLOC_IONRCS_00003", guiUnits = "#autoLOC_7001400", guiFormat = "F3", guiActive = true)] //#autoLOC_IONRCS_00003 = Power Ratio
         public float powerRatio = 0f;
         
         public new List<PartResourceDefinition> GetConsumedResources()
@@ -54,7 +54,8 @@ namespace IONRCS
             resources.Add(resTeflon);
             return resources;
         }
-        
+
+        [KSPField(isPersistant = false, guiName = "#autoLOC_IONRCS_00001", guiUnits = "#autoLOC_7001400", guiFormat = "F3", guiActive = true)] //#autoLOC_IONRCS_00001 = Current EC Usage
         public float electricityUse
         {
             get
