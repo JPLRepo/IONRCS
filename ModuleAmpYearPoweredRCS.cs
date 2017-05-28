@@ -36,13 +36,13 @@ namespace IONRCS
         private string Xenon = "XenonGas";
 
         // New context menu info
-        [KSPField(isPersistant = false, guiName = "Current EC Usage", guiUnits = "s", guiFormat = "F3", guiActive = true)]
+        [KSPField(isPersistant = false, guiName = "#autoLOC_IONRCS_00001", guiUnits = "#autoLOC_7001400", guiFormat = "F3", guiActive = true)] //#autoLOC_IONRCS_00001 = Current EC Usage
         public float ElecUsed = 0f;
 
-        [KSPField(isPersistant = true, guiName = "Xenon Ratio", guiUnits = "s", guiFormat = "F3", guiActive = true)]
+        [KSPField(isPersistant = true, guiName = "#autoLOC_IONRCS_00002", guiUnits = "#autoLOC_7001400", guiFormat = "F3", guiActive = true)] //#autoLOC_IONRCS_00002 = Xenon Ratio
         public float xenonRatio = 0f;
 
-        [KSPField(isPersistant = true, guiName = "Power Ratio", guiUnits = "s", guiFormat = "F3", guiActive = true)]
+        [KSPField(isPersistant = true, guiName = "#autoLOC_IONRCS_00003", guiUnits = "#autoLOC_7001400", guiFormat = "F3", guiActive = true)] //#autoLOC_IONRCS_00003 = Power Ratio
         public float powerRatio = 0f;
         
         public new List<PartResourceDefinition> GetConsumedResources()
@@ -55,7 +55,7 @@ namespace IONRCS
             return resources;
         }
 
-        [KSPField(isPersistant = false, guiName = "Current EC Usage", guiUnits = "/s", guiFormat = "F3", guiActive = true)]
+        [KSPField(isPersistant = false, guiName = "#autoLOC_IONRCS_00001", guiUnits = "#autoLOC_7001400", guiFormat = "F3", guiActive = true)] //#autoLOC_IONRCS_00001 = Current EC Usage
         public float electricityUse
         {
             get
