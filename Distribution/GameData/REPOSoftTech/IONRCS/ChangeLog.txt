@@ -1,4 +1,6 @@
-﻿V0.1.7.0
+﻿V0.1.8.0
+	Re-compile for KSP 1.3.1
+V0.1.7.0
 	Changes for KSP 1.3.0
 	Localization/Language ready. Looking for translation volunteers. ;)
 V0.1.6.0
