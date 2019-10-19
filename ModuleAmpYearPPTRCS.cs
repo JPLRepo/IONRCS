@@ -55,8 +55,7 @@ namespace IONRCS
             return resources;
         }
 
-        [KSPField(isPersistant = false, guiName = "#autoLOC_IONRCS_00001", guiUnits = "#autoLOC_7001400", guiFormat = "F3", guiActive = true)] //#autoLOC_IONRCS_00001 = Current EC Usage
-        public float electricityUse
+       public float electricityUse
         {
             get
             {
