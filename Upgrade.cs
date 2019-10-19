@@ -36,7 +36,7 @@ namespace IONRCS
 
         public override TestResult OnTest(ConfigNode node, LoadContext loadContext, ref string nodeName)
         {
-            nodeName = NodeUtil.GetPartNodeName(node, loadContext);
+            nodeName = NodeUtil.GetPartNodeNameValue(node, loadContext);
             TestResult testResult = TestResult.Pass;
             ConfigNode[] nodes = node.GetNodes("MODULE");
             TestResult result;
@@ -56,7 +56,7 @@ namespace IONRCS
             return result;
         }
 
-        public override void OnUpgrade(ConfigNode node, LoadContext loadContext)
+        public override void OnUpgrade(ConfigNode node, LoadContext loadContext, ConfigNode parentNode)
         {
             ConfigNode[] nodes = node.GetNodes("MODULE");
             int num;

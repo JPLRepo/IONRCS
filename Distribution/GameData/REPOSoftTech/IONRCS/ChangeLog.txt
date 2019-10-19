@@ -1,4 +1,8 @@
-﻿V0.1.8.0
+﻿V0.1.10.0
+	Re-compile for KSP 1.8.x
+V0.1.9.0
+	Re-compile for KSP 1.4.1
+V0.1.8.0
 	Re-compile for KSP 1.3.1
 V0.1.7.0
 	Changes for KSP 1.3.0
